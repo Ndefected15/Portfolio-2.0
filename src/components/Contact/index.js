@@ -8,6 +8,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const refForm = useRef()
+  const titleArray = 'Contact Me'.split('')
 
   useEffect(() => {
     let timeoutId = setTimeout(() => {
@@ -48,7 +49,7 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={titleArray}
               idx={15}
             />
           </h1>

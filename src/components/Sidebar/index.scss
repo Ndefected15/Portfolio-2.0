@@ -1,5 +1,5 @@
 .nav-bar {
-  background: #181818;
+  background: #172518;
   width: 60px;
   height: 100%;
   position: absolute;
@@ -46,7 +46,7 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: #ddd3d8;
 
         svg {
           opacity: 0;
@@ -98,7 +98,7 @@
 
     a.active {
       svg {
-        color: #ffd700;
+        color: #ddd3d8;
       }
     }
   }
@@ -124,34 +124,35 @@
 
       &:hover {
         .anchor-icon {
-          color: #ffd700;
+          color: #ddd3d8;
         }
       }
     }
   }
 }
 
-.hamburger-icon, .close-icon {
+.hamburger-icon,
+.close-icon {
   display: none;
 }
 
-
 @media screen and (max-width: 1200px) {
-  .nav-bar { 
+  .nav-bar {
     background: transparent;
     position: initial;
     height: auto;
     min-height: auto;
 
-     ul, nav {
+    ul,
+    nav {
       display: none;
-     }
+    }
 
-     nav {
+    nav {
       width: 100%;
       top: 0;
       left: 0;
-      background: #181818;
+      background: #172518;
       height: 100%;
       margin: 0;
       z-index: 2;
@@ -171,20 +172,20 @@
         opacity: 1;
         position: initial;
         width: auto;
-        margin-left: 10PX;
+        margin-left: 10px;
       }
 
       a svg {
         opacity: 1 !important;
       }
-     }
+    }
 
-     .hamburger-icon,
-     .close-icon {
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        display: block;
-     }
+    .hamburger-icon,
+    .close-icon {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: block;
+    }
   }
 }
