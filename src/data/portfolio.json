@@ -1,34 +1,28 @@
 {
-    "portfolio": [
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        }
-    ]
+  "portfolio": [
+    {
+      "cover": "/portfolio/1/one.png",
+      "title": "Easy Rez V2",
+      "description": "React, JavaScript, Node.js, Express.js, MongoDB, Material UI, Apollo, GraphQL, JSON Web Tokens, Bcrypt, Twilio API",
+      "url": "https://github.com/robjameva/easy-res-v2?tab=readme-ov-file#usage"
+    },
+    {
+      "cover": "/portfolio/2/two.jpg",
+      "title": "BeFrWithMe Discord Bot",
+      "description": "Cron, Discord.js, moment-timezone, Javascript, Heroku",
+      "url": "https://github.com/Ndefected15/DiscordBot"
+    },
+    {
+      "cover": "/portfolio/3/three.jpg",
+      "title": "Portfolio V1",
+      "description": "React, JSX, Tailwind, Jest",
+      "url": "http://google.com"
+    },
+    {
+      "cover": "/portfolio/1/one.png",
+      "title": "GGWP",
+      "description": "React, JSX, Tailwind, Jest",
+      "url": "http://google.com"
+    }
+  ]
 }

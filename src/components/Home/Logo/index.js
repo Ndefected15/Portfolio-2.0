@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react'
 import './index.scss'
 import LogoN from '../../../assets/images/logo-n.png'
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 import gsap from 'gsap-trial'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
+// import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 
 const Logo = () => {
   const bgRef = useRef()
@@ -11,7 +11,7 @@ const Logo = () => {
   const solidLogoRef = useRef()
 
   useEffect(() => {
-    gsap.registerPlugin(DrawSVGPlugin)
+    // gsap.registerPlugin(DrawSVGPlugin)
 
     gsap
       .timeline()
@@ -21,7 +21,7 @@ const Logo = () => {
       })
       .from(outlineLogoRef.current, {
         drawSVG: 0,
-        duration: 20,
+        duration: 10,
       })
 
     gsap.fromTo(
@@ -31,23 +31,23 @@ const Logo = () => {
       },
       {
         opacity: 1,
-        delay: 4,
+        delay: 2,
         duration: 4,
       }
     )
   }, [])
 
-  const pathVariants = {
-    hidden: {
-      pathLength: 0,
-    },
-    visible: {
-      pathLength: 1,
-      transition: {
-        duration: 10,
-      },
-    },
-  }
+  // const pathVariants = {
+  //   hidden: {
+  //     pathLength: 0,
+  //   },
+  //   visible: {
+  //     pathLength: 1,
+  //     transition: {
+  //       duration: 10,
+  //     },
+  //   },
+  // }
 
   return (
     <div className="logo-container" ref={bgRef}>
@@ -58,21 +58,21 @@ const Logo = () => {
         alt="JavaScript,  Developer"
       />
 
-      <svg
+      {/* <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
         width="300.000000pt"
         height="300.000000pt"
         viewBox="0 0 300.000000 300.000000"
         preserveAspectRatio="xMidYMid meet"
+      > */}
+      <g
+        className="svg-container"
+        transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
+        fill="#000000"
+        stroke="none"
       >
-        <g
-          className="svg-container"
-          transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-          fill="#000000"
-          stroke="none"
-        >
-          <motion.path
+        {/* <motion.path
             d="M560 2095 l0 -54 48 -6 c84 -12 150 -34 167 -57 33 -49 18 -156 -141
             -958 -87 -438 -117 -551 -154 -585 -11 -10 -59 -23 -116 -33 l-98 -17 -11 -50
             -11 -50 333 0 334 0 10 40 c5 22 12 45 14 52 4 13 -3 15 -145 38 -52 9 -99 21
@@ -211,9 +211,9 @@ c-25 4 -59 9 -75 12 -20 4 -27 1 -24 -8z"
             variants={pathVariants}
             initial="hidden"
             animate="visible"
-          />
-        </g>
-      </svg>
+          /> */}
+      </g>
+      {/* </svg> */}
     </div>
   )
 }
