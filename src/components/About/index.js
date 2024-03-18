@@ -47,7 +47,7 @@ const About = () => {
             later accepted an offer through York Solutions to further gain
             knowledge in Data Engineering.
           </p>
-          <p>In my free time I enjoy writing and performing music</p>
+          <p>In my free time I enjoy writing and performing music.</p>
         </div>
 
         <div className="stage-cube-cont">
