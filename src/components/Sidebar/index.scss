@@ -16,10 +16,6 @@
       margin: 8px auto;
       width: 50px;
       height: auto;
-
-      &.sub-logo {
-        width: 50px;
-      }
     }
   }
 
@@ -138,10 +134,23 @@
 
 @media screen and (max-width: 1200px) {
   .nav-bar {
-    background: transparent;
+    background: #172518;
     position: initial;
     height: auto;
     min-height: auto;
+    width: 100%;
+
+    .logo {
+      display: block;
+      padding: 0px 0 10px 10px;
+
+      img {
+        display: inline-block;
+        margin: 8px auto;
+        width: 50px;
+        height: auto;
+      }
+    }
 
     ul,
     nav {

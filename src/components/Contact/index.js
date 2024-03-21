@@ -45,7 +45,6 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          1{' '}
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
