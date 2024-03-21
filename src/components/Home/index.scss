@@ -15,7 +15,6 @@
     font-family: 'Coolvetica';
     font-weight: 400;
 
-
     img {
       width: 100px;
       margin-left: 20px;
@@ -68,8 +67,17 @@
     position: initial;
     width: 100%;
     transform: none;
-    padding: 10px;
+    padding: 40px;
+    padding-top: 80px;
     box-sizing: border-box;
+
+    h1 {
+      color: #fff;
+      font-size: 40px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+    }
   }
 
   .home-page .flat-button {
@@ -81,9 +89,9 @@
 
   .logo-container {
     position: relative;
-    width: 100px;
+    width: 200px;
     height: auto;
-    top: 50px;
+    top: 20px;
     right: 0;
     box-sizing: border-box;
     margin: auto;
