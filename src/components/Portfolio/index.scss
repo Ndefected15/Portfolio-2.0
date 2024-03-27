@@ -22,7 +22,10 @@
     display: flex;
     gap: 2vw;
     flex-wrap: wrap;
+    padding-top: 50px;
     padding-bottom: 10vh;
+    gap: 20px;
+    justify-content: center;
   }
 
   .image-box {
@@ -43,7 +46,7 @@
 
     .content {
       position: absolute;
-      width: 100%;
+      width: -webkit-fill-available;
       z-index: 3;
       padding: 1vh 2vw;
       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
