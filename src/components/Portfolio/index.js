@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
+import Footer from '../Footer'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import portfolioData from '../../data/portfolio.json'
@@ -55,6 +56,7 @@ const Portfolio = () => {
         </h1>
         <div>{renderPortfolio(portfolioData.portfolio)}</div>
       </div>
+      <Footer />
       <Loader type="pacman" />
     </>
   )

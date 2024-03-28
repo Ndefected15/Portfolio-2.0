@@ -1,5 +1,6 @@
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import Footer from '../Footer'
 import Loader from 'react-loaders'
 import { useEffect, useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
@@ -113,6 +114,7 @@ const Contact = () => {
             </Marker>
           </MapContainer>
         </div>
+        <Footer/>
       </div>
       <Loader type="square-spin" />
     </>

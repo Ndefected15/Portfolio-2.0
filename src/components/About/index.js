@@ -1,5 +1,6 @@
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import Footer from '../Footer'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -37,17 +38,15 @@ const About = () => {
             />
           </h1>
           <p>
-            My name is Nicholas Defex. I am a Data Engineer with nine months of
-            experience contracted at MUFG through York Solutions. I have had an
-            interest in computers and techonology all my life and in the fall of
-            2021 I decided to persue a career that aligns with those interests.
+            My name is Nicholas Defex. I have had an interest in computers and
+            techonology all my life and in the fall of 2021 I decided to persue
+            a career that aligns with those interests.
           </p>
           <p>
             I signed up for the Rutgers Full Stack Web Dev Bootcamp and 24 weeks
             later accepted an offer through York Solutions to further gain
             knowledge in Data Engineering.
           </p>
-          <p>In my free time I enjoy writing and performing music.</p>
         </div>
 
         <div className="stage-cube-cont">
@@ -74,6 +73,7 @@ const About = () => {
         </div>
       </div>
       <Loader type="square-spin" />
+      <Footer />
     </>
   )
 }

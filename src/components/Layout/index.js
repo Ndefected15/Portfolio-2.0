@@ -11,7 +11,7 @@ const Layout = () => {
       <div className="page">
         <Outlet />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

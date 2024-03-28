@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import LogoTitle from '../../assets/images/logo-n.png'
 import Logo from './Logo'
+import Footer from '../Footer'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
@@ -51,6 +52,7 @@ const Home = () => {
         </div>
         <Logo />
       </div>
+      <Footer />
       <Loader type="square-spin" />
     </>
   )
